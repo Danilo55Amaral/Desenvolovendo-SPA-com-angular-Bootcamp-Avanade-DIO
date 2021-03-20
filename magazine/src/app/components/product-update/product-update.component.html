@@ -1,0 +1,44 @@
+<mat-card>
+    <mat-card-title>Alterar Peça</mat-card-title>
+    <!--formulário criado dentro do mat-card-->
+    <form>
+        <div class="campos">
+            <div class="campos">
+                <mat-form-field>
+                    <input matInput placeholder="Nome" [(ngModel)]="product.name" name="name">
+                    
+                </mat-form-field>
+            </div>
+            <div class="campos">
+                <mat-form-field>
+                    <input  matInput placeholder="Preço(R$)" [(ngModel)]="product.price" name="price">
+                </mat-form-field>
+            </div>
+            <div class="campos">
+                <mat-form-field>
+                    <input  matInput placeholder="Quantidade" [(ngModel)]="product.quantidade"
+                        name="quantidade">
+                </mat-form-field>
+            </div>
+            <div class="campos">
+                <mat-form-field>
+                    <input  matInput placeholder="Marca" [(ngModel)]="product.marca" name="marca">
+                </mat-form-field>
+            </div>
+            <div class="campos">
+                <mat-form-field>
+                    <input  matInput placeholder="Fabricante" [(ngModel)]="product.fabricante"
+                        name="fabricante">
+                </mat-form-field>
+            </div>
+        </div>
+    </form>
+
+    <button mat-raised-button (click)="updateProduct()">
+        Salvar
+    </button>
+
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>

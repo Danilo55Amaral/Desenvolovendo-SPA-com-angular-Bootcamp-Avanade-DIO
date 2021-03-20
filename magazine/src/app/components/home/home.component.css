@@ -1,0 +1,24 @@
+.home .title {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.home .subtitle {
+    font-size: 1.1rem;
+}
+
+.example-card {
+    max-width: 650px;
+    margin-top: 50px;
+    display: inline-block; /* colcoar a imagem  ao lado da outra */
+    padding: 20px;
+    margin-left: 60px;
+}
+.example-card2 {
+    max-width: 650px;
+    margin-top: 50px;
+    display: inline-block; /* colcoar a imagem  ao lado da outra */
+    padding: 20px;
+    margin-left: 100px;
+}

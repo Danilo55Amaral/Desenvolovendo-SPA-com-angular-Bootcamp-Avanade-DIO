@@ -1,0 +1,44 @@
+<mat-card>
+    <mat-card-title>Excluir Peça</mat-card-title>
+    <!--formulário criado dentro do mat-card-->
+    <form>
+        <div class="campos">
+            <div class="campos">
+                <mat-form-field>
+                    <input matInput placeholder="Nome" [value]="product.name" name="name"  disabled>
+                    
+                </mat-form-field>
+            </div>
+            <div class="campos">
+                <mat-form-field>
+                    <input  matInput placeholder="Preço(R$)" [value]="product.price" name="price" disabled>
+                </mat-form-field>
+            </div>
+            <div class="campos">
+                <mat-form-field>
+                    <input  matInput placeholder="Quantidade" [value]="product.quantidade"
+                        name="quantidade" disabled>
+                </mat-form-field>
+            </div>
+            <div class="campos">
+                <mat-form-field>
+                    <input  matInput placeholder="Marca" [value]="product.marca" name="marca" disabled>
+                </mat-form-field>
+            </div>
+            <div class="campos">
+                <mat-form-field>
+                    <input  matInput placeholder="Fabricante" [value]="product.fabricante"
+                        name="fabricante" disabled>
+                </mat-form-field>
+            </div>
+        </div>
+    </form>
+
+    <button mat-raised-button (click)="deleteProduct()">
+        Excluir
+    </button>
+
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>

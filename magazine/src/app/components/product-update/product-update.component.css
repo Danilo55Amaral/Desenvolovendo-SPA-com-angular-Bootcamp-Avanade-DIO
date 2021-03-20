@@ -1,0 +1,24 @@
+form {
+    padding: 10px;
+     width:400px; 
+ }
+ 
+ .campos {
+     display: flex;
+     padding: 10px;
+     
+ }
+ 
+ .input {
+     padding: 20px;
+     display: flex;
+     margin-top: 10px;
+ }
+ 
+button {
+    margin-top: 20px;
+    margin-right: 15px;
+    background-color: #e55400;
+    color: white;
+    float: left;
+}

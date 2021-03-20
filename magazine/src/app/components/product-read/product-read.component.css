@@ -1,0 +1,16 @@
+table {
+    width: 100%;
+    
+}
+
+.erdit {
+    margin-right:  10px;
+}
+
+.edit > i {
+    color:#e55400;
+}
+
+.delete > i {
+    color: #e55400;
+}

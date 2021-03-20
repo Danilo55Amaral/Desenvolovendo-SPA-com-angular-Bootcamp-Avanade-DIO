@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Cubo Traseiro Shimano",
+      "price": "270,00",
+      "quantidade": 20,
+      "marca": "Shimano",
+      "fabricante": "Shimano"
+    },
+    {
+      "id": 2,
+      "name": "Cubo Dianteiro Shimano",
+      "price": "190,00",
+      "quantidade": "30",
+      "marca": "Shimano",
+      "fabricante": "Shimano"
+    },
+    {
+      "id": 3,
+      "name": "Corrente Sram Red",
+      "price": "290,00",
+      "quantidade": "30",
+      "marca": "Sram Red",
+      "fabricante": "Sram Red"
+    },
+    {
+      "name": "Coroa xt M8100",
+      "price": "560,00",
+      "quantidade": "70",
+      "marca": "Shimano",
+      "fabricante": "Shimano",
+      "id": 4
+    },
+    {
+      "name": "GPS Edge 820",
+      "price": "3,250",
+      "quantidade": "20",
+      "marca": "Garmin",
+      "fabricante": "Garmin",
+      "id": 5
+    },
+    {
+      "name": "Pedivela Altus M171",
+      "price": "200,00",
+      "quantidade": "30",
+      "marca": "Shimano",
+      "fabricante": "Shimano",
+      "id": 6
+    },
+    {
+      "name": "suspenção Fox Float",
+      "price": "3,200",
+      "quantidade": "30",
+      "marca": "Fox",
+      "fabricante": "Fox",
+      "id": 7
+    }
+  ]
+}
