@@ -11,7 +11,7 @@ Projeto para o Bootcamp angular develope avanade
 - Utilizei o framework angular 
 - utilizei o angular material
 - Css3 e html5 
-- Criei uma pasta backend e fiz um back-end bem simples utilizando Json para o CRUD funcionar. 
+- Criei uma pasta backend e fiz um back-end bem simples utilizando Json-server para o CRUD funcionar. 
 
 # Para Rodar o projeto
 - Abra com o terminal a pasta backend e utilize o seguinte comando npm start 
